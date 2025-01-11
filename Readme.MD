@@ -5,6 +5,8 @@
 
 Bu proje, bir WebSocket sunucusu üzerinden ekran görüntüsü alma ve şarj durumu bilgilerini istemciye iletme işlevlerini gerçekleştiren bir Node.js uygulamasıdır. Kullanıcılar, belirli mesajları göndererek ekran görüntüsü alabilir ve cihazlarının pil durumu hakkında bilgi alabilirler. Zamanla daha çok özellik eklenecektir.
 
+<img src="assets/homeMenuAndChargeStatus.jpg" alt="Home Menu and Charge Status" width="400">
+
 ### Özellik Listesi
 
 1. **Ekran Görüntüsü Alma Özelliği**
@@ -12,6 +14,8 @@ Bu proje, bir WebSocket sunucusu üzerinden ekran görüntüsü alma ve şarj du
    - [x] WebSocket üzerinden gelen `needScreenshot` purpose'unu işleme.
    - [x] Ekran görüntüsünü base64 formatında istemciye gönderme.
    - [ ] Görsel kalitesi düşük, kaliteyi arttırma.
+
+   <img src="assets/ScreenShot.jpg" alt="Screen Shot" width="400">
 
 2. **Pil Durumu Özelliği**
 
@@ -40,6 +44,8 @@ Bu proje, bir WebSocket sunucusu üzerinden ekran görüntüsü alma ve şarj du
 
 - [x] Kullanıcı yapay zeka ile sohbet edebilir.
 - [x] Kullanıcı yapay zeka ile fonksiyonları çağırabilir.
+
+  <img src="assets/AIChat.jpg" alt="AI Chat" width="400">
 
 8. **Mouse Kontrolü**
 
@@ -82,6 +88,8 @@ Bu proje, bir WebSocket sunucusu üzerinden ekran görüntüsü alma ve şarj du
 16. **Valorant Account Loginer**
 
 - [x] `sendingValorantAccount` purpose'u ile gelen account bilgilerini işleyip, valorant'a giriş yapılır.
+
+  <img src="assets/LoginPage.jpg" alt="Login Page" width="400">
 
 ## Gerekli Bağımlılıklar
 
