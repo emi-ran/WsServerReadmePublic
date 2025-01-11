@@ -9,7 +9,15 @@ Bu proje, bir WebSocket sunucusu üzerinden ekran görüntüsü alma ve şarj du
 
 ### Özellik Listesi
 
-1. **Ekran Görüntüsü Alma Özelliği**
+1. **Kullanıcı Girişi**
+
+- [x] Kullanıcı adı ve şifre ile giriş yapma.
+- [x] Başarılı girişlerde kullanıcıya hoş geldiniz mesajı gösterme.
+- [x] Başarısız girişlerde hata mesajı gösterme.
+  <img src="assets/LoginPage.jpg" alt="Login Page" width="400">
+
+
+2. **Ekran Görüntüsü Alma Özelliği**
 
    - [x] WebSocket üzerinden gelen `needScreenshot` purpose'unu işleme.
    - [x] Ekran görüntüsünü base64 formatında istemciye gönderme.
@@ -17,79 +25,77 @@ Bu proje, bir WebSocket sunucusu üzerinden ekran görüntüsü alma ve şarj du
 
    <img src="assets/ScreenShot.jpg" alt="Screen Shot" width="400">
 
-2. **Pil Durumu Özelliği**
+3. **Pil Durumu Özelliği**
 
    - [x] WebSocket üzerinden gelen `needChargeStatus` purpose'unu işleme.
    - [x] Cihazın pil seviyesini ve şarj durumunu istemciye gönderme.
 
-3. **Uygulama Yönetimi**
+4. **Uygulama Yönetimi**
 
    - [x] WebSocket üzerinden gelen `needAppList` purpose'unu işleyip açık olan uygulamaları istemciye gönderme.
    - [x] WebSocket üzerinden gelen `needDestroyApp` purpose'unu işleyip istenilen uygulamanın kapatılması.
    - [x] `needAppList` purpose'una gönderilen uygulama listesine filtre uygulama (sistem uygulamalarını göndermemek için).
 
-4. **Web Başlatıcı**
+5. **Web Başlatıcı**
 
 - [x] `needWebLink` purpose'u ile gelen linki bilgisayardaki varsayılan tarayıcıda açma.
 
-5. **MessageBox**
+6. **MessageBox**
 
 - [x] `needMsgBox` ile gelen mesajı msgbox ile gösterir.
 
-6. **Sekmeler Arası Geçiş**
+7. **Sekmeler Arası Geçiş**
 
 - [x] `needSwitchTab` ile gelen mesajı işler ve istenilen sekmeyi açar.
 
-7. **Yapay Zeka Sohbet**
+8. **Yapay Zeka Sohbet**
 
 - [x] Kullanıcı yapay zeka ile sohbet edebilir.
 - [x] Kullanıcı yapay zeka ile fonksiyonları çağırabilir.
 
   <img src="assets/AIChat.jpg" alt="AI Chat" width="400">
 
-8. **Mouse Kontrolü**
+9. **Mouse Kontrolü**
 
 - [x] `needMouseControl` ile gelen mesajı işler ve istenilen mouse işlemlerini gerçekleştirir.
 
-9. **V/B Adjuster**
+10. **V/B Adjuster**
 
 - [x] `needSetVolume` ile gelen mesajı (0-100 arası bir değer) işleyerek sesi istenilen miktarla değiştirir.
 - [x] `needSetBrightness` ile gelen mesajı (0-100 arası bir değer) işleyerek parlaklığı istenilan miktarla değiştirir.
 
-10. **Uygulama Başlatıcı**
+11. **Uygulama Başlatıcı**
 
 - [x] `needStartApp` ile gelen mesajı işleyerek istenilen uygulama başlatılır.
 
-11. **Güç Yönetimi**
+12. **Güç Yönetimi**
 
 - [x] `needShutDown` ile gelen mesajı (saniye cinsinden) işleyerek bilgisayarı kapatır.
 - [x] `needRestart` purpose'u gönderildiğinde bilgisayar yeniden başlatılır.
 - [x] `needLockWorkspace` purpose'u gönderildiğinde bilgisayar kilitlenir.
 - [x] `needCancelShutdown` purpose'u gönderildiğinde bilgisayar kapatma işlemi iptal edilir.
 
-12. **Valorant Agent Locker**
+13. **Valorant Agent Locker**
 
 - [x] `needLockAgent` purpose'u ile gelen ajanı işleyip, bilgisayarda ajan seçimi kısmında istenilen ajanı kilitlemek.
 
-13. **Pano İşlemleri**
+14. **Pano İşlemleri**
 
 - [x] `needGetCb` purpose'unu işleyip bilgisayardaki panoda en son kopyalanan ögeyi `sendGetCb` ile istemciye gönderir.
 - [x] `needSendCb` ile telefonda girilen metni bilgisayardaki panoya kopyalayabilir.
 
-14. **Yazı İşlemleri**
+15. **Yazı İşlemleri**
 
 - [x] `needPressCombination` ile gelen mesajı işler ve istenilen tuşlara basar (Örneğin gelen cevap "ctrl alt del" ise "Ctrl+Alt+Del" kombinasyonu uygulanır)
 - [x] `needWriteText` ile gelen mesajı klavyeden yazarmış gibi yazar.
 
-15. **Ekran Kaydı**
+16. **Ekran Kaydı**
 
 - [x] `needScreenRecord` ile gelen mesajı (integer) işleyerek istenilen sürede ekran kaydı başlatır, kayıt işlemi sonlandığında kullanıcı videoya erişebileceği linke yönlendirilir.
 
-16. **Valorant Account Loginer**
+17. **Valorant Account Loginer**
 
 - [x] `sendingValorantAccount` purpose'u ile gelen account bilgilerini işleyip, valorant'a giriş yapılır.
-
-  <img src="assets/LoginPage.jpg" alt="Login Page" width="400">
 
 ## Gerekli Bağımlılıklar
 
