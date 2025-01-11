@@ -1,3 +1,6 @@
+> **⚠️ Dikkat:**  
+> Hala geliştirilme aşamasında olduğundan ve birçok API anahtarıyla kişisel bilgiler içerdiğinden dolayı kaynak kodları henüz tamamen kullanılabilir değildir. Bu repo sadece gelişmeler hakkında bilgilendirme amaçlı kullanılacaktır.
+
 # WebSocket Sunucusu
 
 Bu proje, bir WebSocket sunucusu üzerinden ekran görüntüsü alma ve şarj durumu bilgilerini istemciye iletme işlevlerini gerçekleştiren bir Node.js uygulamasıdır. Kullanıcılar, belirli mesajları göndererek ekran görüntüsü alabilir ve cihazlarının pil durumu hakkında bilgi alabilirler. Zamanla daha çok özellik eklenecektir.
