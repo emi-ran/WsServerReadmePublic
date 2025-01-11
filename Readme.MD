@@ -3,7 +3,7 @@
 
 # WebSocket Sunucusu
 
-Bu proje, bir WebSocket sunucusu üzerinden ekran görüntüsü alma ve şarj durumu bilgilerini istemciye iletme işlevlerini gerçekleştiren bir Node.js uygulamasıdır. Kullanıcılar, belirli mesajları göndererek ekran görüntüsü alabilir ve cihazlarının pil durumu hakkında bilgi alabilirler. Zamanla daha çok özellik eklenecektir.
+Bu proje, bir WebSocket sunucusu üzerinden ekran görüntüsü alma ve şarj durumu bilgilerini istemciye iletme işlevlerini gerçekleştiren bir Node.js uygulamasıdır. Temel amacı telefonunuz ile bilgisayarınızı kontrol etmektir. Kullanıcılar, belirli mesajları göndererek ekran görüntüsü alabilir ve cihazlarının pil durumu hakkında bilgi alabilirler. Zamanla daha çok özellik eklenecektir.
 
 <img src="assets/homeMenuAndChargeStatus.jpg" alt="Home Menu and Charge Status" width="400">
 
