@@ -204,7 +204,7 @@ Error while taking screenshot: <error_details>
 
 ## Contributing
 
-This project is open source. If you want to contribute, you can contribute by sending a pull request.
+This project is not open source yet, but it will be made open source in the future.
 
 ## License
 

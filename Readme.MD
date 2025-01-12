@@ -204,8 +204,7 @@ Ekran görüntüsü alınırken hata: <error_details>
 ```
 
 ## Katkıda Bulunma
-
-Bu proje açık kaynaklıdır. Herhangi bir katkı sağlamak isterseniz, pull request göndererek katkıda bulunabilirsiniz.
+Bu proje henüz açık kaynak değil, bu yüzden katkı sağlayamazsınız. Ancak, API anahtarları kaldırılıp kişisel veriler temizlendikten sonra açık kaynak yapılacaktır.
 
 ## Lisans
 
