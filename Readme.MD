@@ -16,10 +16,11 @@ Bu proje, bir WebSocket sunucusu üzerinden ekran görüntüsü alma ve şarj du
 - [x] Kullanıcı adı ve şifre ile giriş yapma.
 - [x] Başarılı girişlerde kullanıcıya hoş geldiniz mesajı gösterme.
 - [x] Başarısız girişlerde hata mesajı gösterme.
+  
   <img src="assets/LoginPage.jpg" alt="Login Page" width="400">
 
 
-2. **Ekran Görüntüsü Alma Özelliği**
+1. **Ekran Görüntüsü Alma Özelliği**
 
    - [x] WebSocket üzerinden gelen `needScreenshot` purpose'unu işleme.
    - [x] Ekran görüntüsünü base64 formatında istemciye gönderme.
@@ -27,18 +28,18 @@ Bu proje, bir WebSocket sunucusu üzerinden ekran görüntüsü alma ve şarj du
 
    <img src="assets/ScreenShot.jpg" alt="Screen Shot" width="400">
 
-3. **Pil Durumu Özelliği**
+2. **Pil Durumu Özelliği**
 
    - [x] WebSocket üzerinden gelen `needChargeStatus` purpose'unu işleme.
    - [x] Cihazın pil seviyesini ve şarj durumunu istemciye gönderme.
 
-4. **Uygulama Yönetimi**
+3. **Uygulama Yönetimi**
 
    - [x] WebSocket üzerinden gelen `needAppList` purpose'unu işleyip açık olan uygulamaları istemciye gönderme.
    - [x] WebSocket üzerinden gelen `needDestroyApp` purpose'unu işleyip istenilen uygulamanın kapatılması.
    - [x] `needAppList` purpose'una gönderilen uygulama listesine filtre uygulama (sistem uygulamalarını göndermemek için).
 
-5. **Web Başlatıcı**
+4. **Web Başlatıcı**
 
 - [x] `needWebLink` purpose'u ile gelen linki bilgisayardaki varsayılan tarayıcıda açma.
 

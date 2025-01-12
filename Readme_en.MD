@@ -16,9 +16,10 @@ This project is a Node.js application that performs functions of taking screensh
 - [x] Login with username and password.
 - [x] Display a welcome message to the user on successful login.
 - [x] Display an error message on failed login.
+  
   <img src="assets/LoginPage.jpg" alt="Login Page" width="400">
 
-2. **Screenshot Feature**
+1. **Screenshot Feature**
 
    - [x] Process the `needScreenshot` purpose coming through WebSocket.
    - [x] Send the screenshot to the client in base64 format.
@@ -26,18 +27,18 @@ This project is a Node.js application that performs functions of taking screensh
 
    <img src="assets/ScreenShot.jpg" alt="Screen Shot" width="400">
 
-3. **Charge Status Feature**
+2. **Charge Status Feature**
 
    - [x] Process the `needChargeStatus` purpose coming through WebSocket.
    - [x] Send the device's battery level and charge status to the client.
 
-4. **Application Management**
+3. **Application Management**
 
    - [x] Process the `needAppList` purpose coming through WebSocket and send the list of open applications to the client.
    - [x] Process the `needDestroyApp` purpose coming through WebSocket and close the requested application.
    - [x] Apply a filter to the application list sent to the `needAppList` purpose (to not send system applications).
 
-5. **Web Launcher**
+4. **Web Launcher**
 
 - [x] Open the link coming with the `needWebLink` purpose in the default browser on the computer.
 
