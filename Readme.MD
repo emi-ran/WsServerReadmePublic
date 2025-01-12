@@ -1,3 +1,5 @@
+[For English version click here](Readme_en.MD)
+
 > **⚠️ Dikkat:**  
 > Hala geliştirilme aşamasında olduğundan ve birçok API anahtarıyla kişisel bilgiler içerdiğinden dolayı kaynak kodları henüz tamamen kullanılabilir değildir. Bu repo sadece gelişmeler hakkında bilgilendirme amaçlı kullanılacaktır.
 
