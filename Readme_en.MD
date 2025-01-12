@@ -13,11 +13,11 @@ This project is a Node.js application that performs functions of taking screensh
 
 1. **User Login**
 
-- [x] Login with username and password.
-- [x] Display a welcome message to the user on successful login.
-- [x] Display an error message on failed login.
+   - [x] Login with username and password.
+   - [x] Display a welcome message to the user on successful login.
+   - [x] Display an error message on failed login.
   
-  <img src="assets/LoginPage.jpg" alt="Login Page" width="400">
+    <img src="assets/LoginPage.jpg" alt="Login Page" width="400">
 
 1. **Screenshot Feature**
 

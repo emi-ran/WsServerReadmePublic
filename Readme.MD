@@ -13,11 +13,11 @@ Bu proje, bir WebSocket sunucusu üzerinden ekran görüntüsü alma ve şarj du
 
 1. **Kullanıcı Girişi**
 
-- [x] Kullanıcı adı ve şifre ile giriş yapma.
-- [x] Başarılı girişlerde kullanıcıya hoş geldiniz mesajı gösterme.
-- [x] Başarısız girişlerde hata mesajı gösterme.
+   - [x] Kullanıcı adı ve şifre ile giriş yapma.
+   - [x] Başarılı girişlerde kullanıcıya hoş geldiniz mesajı gösterme.
+   - [x] Başarısız girişlerde hata mesajı gösterme.
   
-  <img src="assets/LoginPage.jpg" alt="Login Page" width="400">
+   <img src="assets/LoginPage.jpg" alt="Login Page" width="400">
 
 
 1. **Ekran Görüntüsü Alma Özelliği**
